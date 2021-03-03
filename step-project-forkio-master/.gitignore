@@ -2,3 +2,8 @@ node_modules
 *.xml
 *.iml
 .idea
+./src
+./gulpfile.js
+.package-lock.json
+./package.json
+.vscode
