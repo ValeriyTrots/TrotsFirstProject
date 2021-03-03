@@ -1,0 +1,38 @@
+@media(min-width: 480px) {
+    .about {
+        &__items {
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 45px;
+        }
+        &__item {
+            &:nth-child(2) {
+                margin-top: -5px;
+            }
+            &:nth-child(4) {
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+@media(min-width: 992px) {
+    .about {
+        &__items {
+            margin-top: 100px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-row-gap: 45px;
+        }
+        &__item {
+            &:nth-child(3) {
+                margin-top: -20px;
+            }
+            &:nth-child(4) {
+                margin-top: 10px;
+            }
+        }
+        &__text {
+            margin: 118px auto 0;
+            max-width: 870px;
+        }
+    }
+}
